@@ -18,7 +18,7 @@ from  statsmodels.tsa.arima_model import ARIMA
 
 def read_data():
 
-    data = pd.read_csv('D:/E Drive/ASU Study/CSE575 Statistical Machine Learning/Hobby/AirPollution.csv')
+    data = pd.read_csv('AirPollution.csv')
 
     return data
 
